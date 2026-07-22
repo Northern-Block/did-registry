@@ -1,0 +1,8 @@
+# Jekyll excludes dotfiles/dot-directories (like .well-known) from the built site by
+# default. did:web resolution for root identifiers requires .well-known/did.json to be
+# served exactly as committed, so it must be explicitly included here.
+include:
+  - ".well-known"
+
+# JSON files (did.json, did.jsonl) have no Liquid front matter and should be copied
+# through untouched rather than processed as Jekyll content.
