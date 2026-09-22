@@ -14,7 +14,7 @@
     },
     {
       "id": "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1-jwk",
-      "type": "JsonWebKey",
+      "type": "JsonWebKey2020",
       "controller": "did:web:did.trustinfrastructure.com:local:vivekjsonld5",
       "publicKeyJwk": {
         "kty": "OKP",
