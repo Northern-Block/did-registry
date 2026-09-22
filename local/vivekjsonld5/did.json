@@ -1,1 +1,50 @@
-{"@context":["https://www.w3.org/ns/did/v1","https://w3id.org/security/suites/ed25519-2020/v1"],"id":"did:web:did.trustinfrastructure.com:local:vivekjsonld5","verificationMethod":[{"id":"did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1","type":"Ed25519VerificationKey2020","controller":"did:web:did.trustinfrastructure.com:local:vivekjsonld5","publicKeyMultibase":"z6Mkr8MsmG3KRJ4Jnj8iB4zMCb62gDEXYCCyPx3Tsu8h7X8h"}],"authentication":["did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1"],"assertionMethod":["did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1"],"service":[{"id":"did:web:did.trustinfrastructure.com:local:vivekjsonld5#did-communication","type":"DIDCommMessaging","serviceEndpoint":"http://vivek-jsonld_agent:9040","recipientKeys":["did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1"],"routingKeys":[],"accept":["didcomm/aip2;env=rfc19"],"priority":1}],"alsoKnownAs":[],"proof":{"type":"DataIntegrityProof","cryptosuite":"EdDSA jws","created":"2026-09-21T19:29:57.176Z","expires":"2116-09-21T19:29:57.176Z","proofPurpose":"assertionMethod","verificationMethod":"did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1","proofValue":"eyJ0eXAiOiAiSldUIiwgImFsZyI6ICJFZERTQSIsICJraWQiOiAiZGlkOndlYjpkaWQudHJ1c3RpbmZyYXN0cnVjdHVyZS5jb206bG9jYWw6dml2ZWtqc29ubGQ1I2tleS0xIn0.eyJAY29udGV4dCI6IFsiaHR0cHM6Ly93d3cudzMub3JnL25zL2RpZC92MSIsICJodHRwczovL3czaWQub3JnL3NlY3VyaXR5L3N1aXRlcy9lZDI1NTE5LTIwMjAvdjEiXSwgImlkIjogImRpZDp3ZWI6ZGlkLnRydXN0aW5mcmFzdHJ1Y3R1cmUuY29tOmxvY2FsOnZpdmVranNvbmxkNSIsICJhbHNvS25vd25BcyI6IFtdLCAidmVyaWZpY2F0aW9uTWV0aG9kIjogW3siaWQiOiAiZGlkOndlYjpkaWQudHJ1c3RpbmZyYXN0cnVjdHVyZS5jb206bG9jYWw6dml2ZWtqc29ubGQ1I2tleS0xIiwgInR5cGUiOiAiRWQyNTUxOVZlcmlmaWNhdGlvbktleTIwMjAiLCAiY29udHJvbGxlciI6ICJkaWQ6d2ViOmRpZC50cnVzdGluZnJhc3RydWN0dXJlLmNvbTpsb2NhbDp2aXZla2pzb25sZDUiLCAicHVibGljS2V5TXVsdGliYXNlIjogIno2TWtyOE1zbUczS1JKNEpuajhpQjR6TUNiNjJnREVYWUNDeVB4M1RzdThoN1g4aCJ9XSwgImF1dGhlbnRpY2F0aW9uIjogWyJkaWQ6d2ViOmRpZC50cnVzdGluZnJhc3RydWN0dXJlLmNvbTpsb2NhbDp2aXZla2pzb25sZDUja2V5LTEiXSwgImFzc2VydGlvbk1ldGhvZCI6IFsiZGlkOndlYjpkaWQudHJ1c3RpbmZyYXN0cnVjdHVyZS5jb206bG9jYWw6dml2ZWtqc29ubGQ1I2tleS0xIl0sICJzZXJ2aWNlIjogW3siaWQiOiAiZGlkOndlYjpkaWQudHJ1c3RpbmZyYXN0cnVjdHVyZS5jb206bG9jYWw6dml2ZWtqc29ubGQ1I2RpZC1jb21tdW5pY2F0aW9uIiwgInR5cGUiOiAiRElEQ29tbU1lc3NhZ2luZyIsICJzZXJ2aWNlRW5kcG9pbnQiOiAiaHR0cDovL3ZpdmVrLWpzb25sZF9hZ2VudDo5MDQwIiwgInJlY2lwaWVudEtleXMiOiBbImRpZDp3ZWI6ZGlkLnRydXN0aW5mcmFzdHJ1Y3R1cmUuY29tOmxvY2FsOnZpdmVranNvbmxkNSNrZXktMSJdLCAicm91dGluZ0tleXMiOiBbXSwgImFjY2VwdCI6IFsiZGlkY29tbS9haXAyO2Vudj1yZmMxOSJdLCAicHJpb3JpdHkiOiAxfV19.DCRLj87Fa40IjKphB0eaXnls_hpKzKWA-1bZVUZtP09DBLG-P4MS8sH1-sI-UeNd50fNG28yWrRlHMvPP2RGBg"}}
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1",
+    "https://w3id.org/security/jwk/v1"
+  ],
+  "id": "did:web:did.trustinfrastructure.com:local:vivekjsonld5",
+  "verificationMethod": [
+    {
+      "id": "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:did.trustinfrastructure.com:local:vivekjsonld5",
+      "publicKeyMultibase": "z6Mkr8MsmG3KRJ4Jnj8iB4zMCb62gDEXYCCyPx3Tsu8h7X8h"
+    },
+    {
+      "id": "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1-jwk",
+      "type": "JsonWebKey",
+      "controller": "did:web:did.trustinfrastructure.com:local:vivekjsonld5",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "rXTM5drUTb6CkqVgUcbvub55Ni5oAF4lRl_Fn4pElsY"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1",
+    "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1-jwk"
+  ],
+  "assertionMethod": [
+    "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1",
+    "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1-jwk"
+  ],
+  "service": [
+    {
+      "id": "did:web:did.trustinfrastructure.com:local:vivekjsonld5#did-communication",
+      "type": "DIDCommMessaging",
+      "serviceEndpoint": "http://vivek-jsonld_agent:9040",
+      "recipientKeys": [
+        "did:web:did.trustinfrastructure.com:local:vivekjsonld5#key-1"
+      ],
+      "routingKeys": [],
+      "accept": [
+        "didcomm/aip2;env=rfc19"
+      ],
+      "priority": 1
+    }
+  ],
+  "alsoKnownAs": []
+}
